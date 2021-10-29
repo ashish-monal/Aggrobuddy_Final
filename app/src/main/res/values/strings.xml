@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Aggrobuddy</string>
+    <string name="enter_user_i_d">Enter User I\'D</string>
+    <string name="login">Login</string>
+    <string name="or_n_n_login_with_other_account">----------OR----------\n\n Login with other Account</string>
+    <string name="register_user">Register User</string>
+    <string name="forget_password">forget password</string>
+    <string name="welcome_nfarmer_merchant_worker_nlogin_here">WELCOME\nFarmer || Merchant || Worker\nLogin Here</string>
+    <string name="password">Password</string>
+    <string name="todo">TODO</string>
+
+</resources>

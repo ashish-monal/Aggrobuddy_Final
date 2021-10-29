@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterUser">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Aggrobuddy\n Create Account "
+                android:textAlignment="center"
+                android:textColor="#05A10B"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RadioButton
+                android:id="@+id/checkBox_Farmer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/banner"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Farmer"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/checkBox_Worker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/banner"
+                android:layout_marginStart="145dp"
+                android:layout_marginTop="15dp"
+                android:text="Worker"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/checkBox_Merchant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/banner"
+                android:layout_marginStart="260dp"
+                android:layout_marginTop="15dp"
+                android:text="Merchant"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/name_title_registeruser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/banner"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="75dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Full Name"
+                android:textColor="#05A10B"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/fullname_registerUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name_title_registeruser"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+                android:hint="Name"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/Email_title_registeruser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fullname_registerUser"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="35dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Email Address"
+                android:textColor="#05A10B"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/email_registerUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Email_title_registeruser"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+                android:hint="Email Id"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/phone_title_registeruser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/email_registerUser"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="35dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Phone Number"
+                android:textColor="#05A10B"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/phone_registerUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phone_title_registeruser"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+                android:hint="Contact No"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+
+
+            <TextView
+                android:id="@+id/password_title_registeruser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phone_registerUser"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="35dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Password"
+                android:textColor="#05A10B"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/password1_registerUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/password_title_registeruser"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/registerUser_Register"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/password1_registerUser"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="68dp"
+                android:layout_marginEnd="42dp"
+                android:layout_marginBottom="25dp"
+                android:text="Register"
+                android:textSize="18sp"
+                tools:ignore="TextContrastCheck" />
+
+            <ProgressBar
+                android:id="@+id/progressBar_registerUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

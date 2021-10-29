@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "421754050511",
+    "project_id": "aggrobuddy-1bc62",
+    "storage_bucket": "aggrobuddy-1bc62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421754050511:android:c27ec857c57e06f691e4ba",
+        "android_client_info": {
+          "package_name": "com.example.aggrobuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421754050511-jrpo02hsraq8t2jd306h857vc5sqi3uc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiq_LR5fpd8HVScTx4U4rrnwC7G_4CA6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421754050511-jrpo02hsraq8t2jd306h857vc5sqi3uc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
